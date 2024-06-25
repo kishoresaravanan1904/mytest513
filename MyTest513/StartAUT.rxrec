@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="512c6ff1-f92c-4bab-9c24-bae96cb5c693"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="MyTest513">
+	</codegen>
+	<variables>
+		<var
+		id="a58ecd60-74bc-42ee-a633-8c0c5f77d4eb"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\kisho\OneDrive\Desktop\NocSmart\Demo.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="2f827a90-8e21-4d09-8bb0-290d7ebba3b0"
+	name="MyTest513Repository"
+	relativepath="MyTest513Repository.rxrep">
+		<codegen
+		classname="MyTest513Repository"
+		namespace="MyTest513">
+		</codegen>
+		<rootfolder
+		id="9b68faa2-e871-48ee-ac6d-780f8b19f9b2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
